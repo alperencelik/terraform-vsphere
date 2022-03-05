@@ -28,3 +28,5 @@ variable "vsphere_virtual_machine_template" {}
 
 # the name of the vsphere virtual machine that is created. empty by default.
 variable "vsphere_virtual_machine_name" {}
+# the ip address for cloned vm
+variable "ip" {}
